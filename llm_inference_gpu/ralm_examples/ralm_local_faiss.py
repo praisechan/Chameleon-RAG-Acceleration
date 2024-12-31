@@ -66,7 +66,8 @@ assert dim == 128
 # 128-dim SIFT 
 dbname = "SIFT1M"
 index_key = "IVF4096,PQ16"
-index_dir = f"/mnt/scratch/wenqi/Faiss_experiments/trained_CPU_indexes/bench_cpu_{dbname}_{index_key}"
+index_dir = f"/home/juchanlee/Chameleon-RAG-Acceleration/dataset/bench_cpu_{dbname}_{index_key}"
+# index_dir = f"/mnt/scratch/wenqi/Faiss_experiments/trained_CPU_indexes/bench_cpu_{dbname}_{index_key}"
 k = 10
 nprobe = 32
 device = 'gpu'

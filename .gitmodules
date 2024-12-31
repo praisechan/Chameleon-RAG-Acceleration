@@ -1,0 +1,3 @@
+[submodule "Faiss_experiments"]
+	path = Faiss_experiments
+	url = https://github.com/praisechan/Faiss_experiments.git
